@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src\\test\\resources\\Features\\Amazon.feature",glue="com.StepDefintion",snippets = SnippetType.CAMELCASE,dryRun = false,plugin = {"pretty", "html:target/cucumber-report.html"})
+@CucumberOptions(features="src\\test\\resources\\Features\\Amazon.feature",glue="com.AmazonDefinition",snippets = SnippetType.CAMELCASE,dryRun = false,plugin = {"pretty", "html:target/cucumber-report.html"})
 public class TestRunner {
 
 }
