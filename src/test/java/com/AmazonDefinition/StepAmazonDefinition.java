@@ -30,7 +30,7 @@ public class StepAmazonDefinition {
 		public void verifiesWhetherTheHomePageIsDisplayedOrNot() {
 		  System.out.println("The page is loaded sucessfully.");
 		}
-
+// Tested by Lalo
 
 
 	}
